@@ -1,0 +1,231 @@
+ 
+
+body{
+/*background:#323A46;*/
+background: white;
+position:absolute;
+margin-top:0px;
+overflow: hidden;
+	 
+}
+
+div.contenedor{
+width: 100%;
+margin: 0 auto;
+overflow: hidden;
+}
+
+header{
+	background:#353535;
+	/*no deja espacios basios en el header*/
+	
+	padding-top: 1px;
+	width: 100em;
+	height: 80px;
+
+}
+
+
+
+section{
+	background: white;
+	width: 52em;
+	height: 30em;
+	float: left;
+	position: absolute;
+	bottom: -310px;
+
+	
+
+
+
+}
+
+aside{
+	background: white;
+	width: 37em;
+	height: 25em;
+	position: absolute;
+	bottom: -300px;
+	left: 750px;
+
+
+}
+
+footer{
+
+	background:#353535;
+	
+	width: 100em;
+	height: 175px;
+	position:relative;
+	top:450px;
+	padding: 0;
+    overflow: hidden;
+
+}
+/*AGREGAR TAMAÑOS DE FUENTES*/
+
+/* header,seccion*/
+span#nom{
+	color: silver;
+	position: relative;
+	top: 15px;
+	left: 10px;
+	font-size: 45px;
+}
+h1.tuto{
+	color: silver;
+}
+p.nom{
+	font-size: 20px;
+}
+
+
+
+/*AGREGAR FUENTES*/
+
+/*nombre de la pagina*/
+
+@font-face{
+font-family: data;
+src:url(/Site/fuentes/data.otf);
+}
+
+span#nom{
+	font-family: data;
+}
+/*-------------------------------------*/
+@font-face{
+font-family: data;
+src:url(/Site/fuentes/data.otf);
+}
+
+h1.tuto{
+	font-family: data;
+}
+/*-------------------------------------*/
+@font-face{
+font-family: t2;
+src:url(/Site/fuentes/t2.otf);
+}
+
+h5#colo{
+	font-family: t2;
+}
+/*-------------------------------------*/
+/*parrafo del footer*/
+@font-face{
+font-family: data;
+src:url(/Site/fuentes/data.otf);
+}
+
+p.nom{
+	font-family: data;
+}
+/*-------------------------------------*/
+
+
+/*FIN DE LAS FUENTES*/
+
+	ul
+{
+	display: table;
+	padding: 0;
+	width: 100%;
+}
+ul li{
+	display: table-cell;
+	padding: 0 5px;
+    
+}
+ul li a
+{
+	display: block;
+}
+div#container{
+background: #F3F3F3;
+padding: 15px;
+border-radius: 1px solid lightgray;
+margin-top: 20px;
+}
+.mix
+{
+display: none;	
+
+}
+
+.mix
+{    
+	padding: 20px;
+	width: auto;
+	background: rgba(0,0,0,0.5);
+	border-radius: 4px;
+	color: white;
+	margin-bottom: 10px;
+}
+span.punto{
+	cursor: pointer;
+}
+
+/*mover la tabla del footer*/
+div#tab{
+position: relative;
+bottom: 200px;
+left: 1000px;
+border-collapse : collapse;
+border-spacing : 0 0;
+padding : 0 0 0 0;
+margin : 0 0 10px 0;
+}
+
+/*pensamiento del footer*/
+div#mov{
+	position: relative;
+	bottom: 70px;
+	left: 450px;
+}
+
+/*Footer fuentes e iconos*/
+
+/*cambias los tamaños de los iconos*/
+span{
+	font-size: 20px;
+	margin-right: 20px;
+	color: #E4C370;
+	/*modificas los colores y tamaños de las fuentes*/
+}
+h5#colo{
+	color:silver;
+}
+
+/*parrafo de el footer*/
+p{
+	color: white;
+}
+
+div#redes{
+	position: relative;
+	top: -20px;
+	left: 150px;
+	
+}
+
+
+div#face{
+
+	position: relative;
+	top: 110px;
+	left: 140px;
+	
+}
+
+aside 
+{
+	background:#f0f0f0;
+	width: 550px;
+	height: 400px;
+	position: absolute;
+	top: 120px;
+	left: 800px;
+}
